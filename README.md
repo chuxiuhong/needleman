@@ -1,5 +1,6 @@
 # needleman
 
+needleman is a needleman-wunsch algorithm implement in Rust.
 ## Installation
 
 Add it to your Cargo.toml

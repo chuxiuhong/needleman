@@ -10,7 +10,7 @@ needleman = "*"
 
 ## Usage
 
-```Rust
+```rust
 use needleman::needleman::needleman;
 let s1 = "ACTA";
 let s2 = "CGAC";

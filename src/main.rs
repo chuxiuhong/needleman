@@ -1,7 +1,7 @@
-use std::fs;
-use std::env;
-use crate::needleman::needleman;
-use std::time::{Duration,Instant};
+
+
+
+
 mod needleman;
 
 fn preprocess_gene(s:String) -> String{
@@ -15,12 +15,6 @@ fn preprocess_gene(s:String) -> String{
 }
 
 
-
-
 fn main() {
-    let s1 = "ACTA";
-    let s2 = "CGAC";
-    let ag = needleman(s1,s2,4,-3,-4,true,'N');
-    println!("score = {}",ag.score);
-    println!("align s1 = {}, s2 = {}",ag.res1,ag.res2);
+
 }
